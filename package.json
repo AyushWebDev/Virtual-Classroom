@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "migrate": "npx knex migrate:latest",
-    "start": "npm run migrate & node dist/src/main.js"
+    "start": "npm run migrate && node dist/src/main.js"
   },
   "author": "",
   "license": "ISC",
