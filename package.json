@@ -5,7 +5,7 @@
   "main": "dist/src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "migrate": "npx knex migrate:latest",
+    "migrate": "knex migrate:latest",
     "start": "npm run migrate && node dist/src/main.js"
   },
   "author": "",
